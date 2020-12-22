@@ -1,9 +1,8 @@
+greet("Hello","Young Lighter");
 
+function greet(greeting, name)
+{
+  document.write(greeting + ", " +  name + "!");
+}
 
-var count = 0;
-while(count<10)
- {
-   document.write("hey there");
-   count++;
- }
 
